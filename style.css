@@ -1,0 +1,223 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Jost", sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+}
+.navmenu{
+    display: flex;
+}
+.logo img{
+    max-width: 120px;
+    height: auto;
+}
+.navmenu a{
+    font-size: 18px;
+    font-weight: 350;
+    padding: 10px 20px;
+    color: black;
+    text-transform: capitalize;
+    transition: all .42s ease;
+}
+.navmenu a:hover{
+    color: #efbb3a;
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-icon i{
+    padding: 10px 20px;   
+    font-size: 18px;
+    font-weight: 350;
+    transition: all .42s ease;
+    transform: scale(1.1);
+}
+.nav-icon i:hover{
+    color: rgb(215, 235, 34);
+    transform: scale(1.5);
+}
+#menu-icon{
+    font-size: 35px;
+    color: rgb(50, 50, 50);
+    z-index: 10001;
+}
+section{
+    padding: 5% 10%;
+}
+.main-home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(bgd2.png);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    
+}
+.main-text h5{
+    color: black;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.main-text p{
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+.main-text h1{
+    color: rgb(11, 1, 1);
+    font-size: 50px;
+    line-height: 1.1;
+    font-weight: 600;
+    margin: 6px 0 10px;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+.main-text h2{
+    color: rgb(113, 56, 75);
+    font-size: 30px;
+    font-style: italic;
+    transition-duration: 0.5s;
+}
+.main-btn{
+    display: inline-block;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 2px solid black;
+    padding: 12px 25px;
+    transition: all.42s ease;
+}
+.main-btn:hover{
+    background-color: rgb(22, 73, 31);
+    color: white;
+}
+.main-btn i{
+    vertical-align: middle;
+}
+.center-text h2{
+    color: black;
+    font-size: 28px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.center-text span{
+    color: rgb(255, 0, 195);
+}
+.trend{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+    gap: 2rem;
+}
+.menu h1{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+.row{
+    position: relative;
+    transition: all .40s;
+}
+.row img{
+    width: 100%;
+    height: auto;
+    transition: all .40s;
+}
+.row img:hover{
+    transform: scale(0.9);
+}
+header.sticky{
+    background: white;
+    padding: 20px 10%;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+}
+
+.chef-image img {
+    width: 500px;
+    height: auto;
+    transition: all .40s;
+    border-radius: 100%;
+  }
+.chef-image{
+    position: relative;
+    transition: all .40s;
+    text-align: center;
+}
+.ch{
+    text-align: center;
+}
+.chef-text{
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+.contact{
+    background-color: rgb(251, 250, 250);
+}
+.contact-info{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px,auto));
+    gap: 2.5rem;
+}
+.first-info img{
+    width: 140px;
+    height: auto;
+}
+.contact-info h4{
+    color: black;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.contact-info p{
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all .42s;
+}
+.contact-info p:hover{
+    color: black;
+}
+.social-icon{
+    color: black;
+    margin-right: 10px;
+    font-size: 20px;
+    transition: all .42s;
+}
+.social-icon i:hover{
+    transform: scale(1.3);
+}
+.end-text{
+    background-color: rgb(236, 233, 233);
+    text-align: center;
+    padding: 20px;
+}
+.end-text p{
+    color: black;
+    text-transform: capitalize;
+}
+
